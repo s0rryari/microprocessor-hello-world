@@ -10,7 +10,7 @@ void setup()
     pinMode(ledPin3, OUTPUT);
     pinMode(buttonPin, INPUT); // or INPUT_PULLUP depending on your wiring
 }
-
+// Logan Duncan Comment
 void loop()
 {
     int buttonState = digitalRead(buttonPin);
