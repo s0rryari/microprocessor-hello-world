@@ -2,7 +2,7 @@ const int ledPin1 = 6;
 const int ledPin2 = 7;
 const int ledPin3 = 8;
 const int buttonPin = 9;
-
+//Ariana's comment
 void setup()
 {
     pinMode(ledPin1, OUTPUT);
@@ -38,3 +38,4 @@ void loop()
         digitalWrite(ledPin3, LOW);
     }
 }
+
